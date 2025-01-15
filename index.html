@@ -94,11 +94,11 @@
             text-decoration: none;
         }
 
-                /* Media query for mobile devices */
+        /* Media query for mobile devices */
         @media (max-width: 768px) {
             .container {
-                padding: 20px; /* Reduce padding on smaller screens */
-                max-width: 90%; /* Make container width 90% of the screen width */
+                max-width: 400px; /* Set a fixed max-width for the container on mobile */
+                width: 100%; /* Ensure it takes up 100% of the available width up to the max-width */
             }
         
             h1 {
@@ -123,6 +123,7 @@
                 font-size: 0.8rem; /* Smaller footer text */
             }
         }
+
     </style>
 </head>
 <body>
