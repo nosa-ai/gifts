@@ -94,6 +94,35 @@
             text-decoration: none;
         }
 
+                /* Media query for mobile devices */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px; /* Reduce padding on smaller screens */
+                max-width: 90%; /* Make container width 90% of the screen width */
+            }
+        
+            h1 {
+                font-size: 2rem; /* Reduce font size for the heading */
+            }
+        
+            p {
+                font-size: 1rem; /* Adjust font size for paragraph */
+            }
+        
+            textarea {
+                padding: 10px; /* Reduce padding in textarea */
+                font-size: 1rem; /* Adjust font size of the textarea */
+            }
+        
+            input[type="submit"] {
+                font-size: 1rem; /* Adjust submit button font size */
+                padding: 10px 20px; /* Reduce padding for the button */
+            }
+        
+            footer {
+                font-size: 0.8rem; /* Smaller footer text */
+            }
+        }
     </style>
 </head>
 <body>
